@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #FAFAF9; */
+    background-color: #FAFAF9;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+}
+
+.main-container {
+    width: 368px;
+    border: #FFFFFF 1px solid;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 164px;
+    border-radius: 10px;
+
+    & .container-image {
+        border: #FAFAF9 1px solid;
+        width: 336px;
+        margin: 16px;
+        height: 152px;
+        background-color: #FAFAF9;
+
+        & img {
+            width: 336px;
+            height: 152px;
+            display: block;
+            position: relative;
+            bottom: 1px;
+            left: -1px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+
+    & .container-text-design {
+        border: #E6D6FC 1px solid;
+        width: 70px;
+        background-color: #E6D6FC;
+        border-radius: 50px;
+        margin: 16px;
+
+        & .text-design {
+            font-size: 10px;
+            color: #883AE1;
+            font-weight: bold;
+            padding: 6px 16px;
+        }
+    }
+
+    & .container-embracing {
+        margin: 16px;
+
+        & .text-embracing {
+            font-size: 18px;
+            font-weight: bold;
+            font-optical-sizing: auto;
+        }
+    }
+
+    & .container-from {
+        margin: -6px 16px 20px 16px;
+
+        & .text-from {
+            font-size: 14px;
+            color: #6C727F;
+            font-optical-sizing: auto;
+        }
+    }
+
+    & .container-text-annie {
+        margin: 20px 16px 20px 16px;
+
+        & .text-annie {
+            font-size: 12px;
+            color: #6C727F;
+            font-optical-sizing: auto;
+        }
+    }
+}
