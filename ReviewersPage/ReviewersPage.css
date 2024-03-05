@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-column: 12;
+    gap: 32px;
+    margin: 72;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAF9;
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    background-color: #909497;
+}
+
+section.main-section-container {
+    border: #FAFAF9 1px solid;
+    width: 1300px;
+    height: 680px;
+    margin-top: 7.5rem;
+    display: flex;
+    background-color: #FAFAF9;
+
+    & div.container-image {
+        display: flex;
+        border: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 10rem;
+        margin-left: 3rem;
+
+        & img {
+            object-fit: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: block;
+            position: relative;
+            right: 1px;
+            bottom: 1px;
+        }
+    }
+
+    & div.container-text-topic {
+        font-size: 36px;
+        border: none;
+        width: 190px;
+        height: 50px;
+        font-weight: 600;
+        margin-top: 14rem;
+        margin-left: -3rem;
+    }
+
+    & div.container-description {
+        border: none;
+        height: 130px;
+        margin-top: 18rem;
+        margin-left: -11.8rem;
+
+        & p {
+            font-size: 20px;
+            font-weight: 550;
+            color: #797D7F;
+        }
+    }
+
+    & div.checkbox-container {
+        border: none;
+        width: 470px;
+        height: 100px;
+        margin-top: 29rem;
+        margin-left: -34rem;
+
+        & img.checkList {
+            padding-top: 6px;
+        }
+
+        & label.Checklist {
+            font-size: 14px;
+            color: #52525A;
+            display: flex;
+            position: relative;
+            top: -1.7rem;
+            left: 1.6rem;
+        }
+
+        & img.checkListss {
+            position: relative;
+            top: -15px;
+        }
+
+        & label.label-checklistss {
+            font-size: 14px;
+            color: #52525A;
+            display: flex;
+            position: relative;
+            top: -2.6rem;
+            left: 1.6rem;
+        }
+
+        & img.checkListsss {
+            position: relative;
+            top: -30px;
+        }
+
+        label.label-checklistsss {
+            font-size: 14px;
+            color: #52525A;
+            display: flex;
+            position: relative;
+            top: -3.5rem;
+            left: 1.6rem;
+        }
+    }
+
+    & div.container-box-google {
+        border: #FFFFFF 1px solid;
+        position: relative;
+        width: 360px;
+        height: 170px;
+        left: 350px;
+        margin-top: 130px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+
+        & img.logo-google {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        & div.star {
+            position: relative;
+            top: -2.6rem;
+            left: 8rem;
+
+            & img {
+                position: relative;
+                left: -7px;
+                top: 6.5px;
+            }
+        }
+
+        & p.text-lee {
+            font-size: 16px;
+            font-weight: 600;
+            position: relative;
+            top: -15px;
+            margin-left: 20px;
+        }
+
+        & p.text-descript-the-checklist {
+            font-size: 16px;
+            position: relative;
+            margin-left: 20px;
+            top: -4px;
+            color: #52525A;
+        }
+    }
+
+    & div.container-box-meta {
+        border: #FFFFFF 1px solid;
+        position: relative;
+        left: -200px;
+        width: 360px;
+        height: 170px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        margin-top: 350px;
+
+        & img.logo-meta {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        & div.star-yello {
+            position: relative;
+            top: -2.2rem;
+            left: 8rem;
+        }
+
+        & p.text-rachel {
+            font-size: 16px;
+            font-weight: 600;
+            position: relative;
+            top: -15px;
+            margin-left: 20px;
+        }
+
+        & p.text-descript-i-highly {
+            font-size: 16px;
+            position: relative;
+            margin-left: 20px;
+            top: -4px;
+            color: #52525A;
+        }
+    }
+}
